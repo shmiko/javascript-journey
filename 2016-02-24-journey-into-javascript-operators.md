@@ -84,3 +84,14 @@
  - ( == )
  - ( != )
  Do Not use these...
+
+*Assignment Operator* //Not equals is !==
+> var planet = 'rock!'; //in memory is "rock!"
+> ['Don\'t', 'stop', 'the', planet][3]; //in memory is "rock!"
+> ['do', 'the', 'conga'][3] = 'beat'; // in memory is ['do', 'the', 'conga', 'beat']
+
+*Objects*
+> { }['first'] = 'Gloria'; // in memory is {"first":"Gloria"}
+> { first: 'Gloria' }.last = 'Estefan'; // in memory is {"first":"Gloria","last":"Estefan"}
+> { music: 'is gonna get you!' }['music']; // in memory is "is gonna get you!"
+
